@@ -1,0 +1,62 @@
+* cara install mariadb:
+
+- pkg install mariadb
+
+* cek versi mariadb:
+
+- mariadb --version
+
+* membuat password:
+
+- mysql -u $(whoami)
+
+- use mysql; 
+
+- set password for 'root'@'localhost' = password('rj');
+
+- flush privileges;
+
+- quit;
+
+* masukan password:
+
+- mysql -u root -p
+
+- password:rj
+
+* Membuat database:
+
+- create database..;
+
+- create tables..;
+
+* masuk database:
+
+- use siswa;
+
+*menampilkan database:
+
+- show databases;
+
+- show tables tb_admin;
+
+* menampilkan struktur isi table:
+
+- describe siswa;
+
+- select * from ...;
+
+* menghapus database:
+
+- drop database siswa;
+
+* cara mengatasi error:
+
+- pkill mysql
+
+- mysqld
+
+
+*link php:
+
+- https://youtube.com/playlist?list=PL8xqIegYEJ3N7-cZ9yk2cSS-MT4MKV-FC
