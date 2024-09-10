@@ -1,0 +1,92 @@
+* Hapus tema termux:
+
+- touch .hushlogin
+
+* Memberi izin memori:
+
+- termux-setup-storage
+
+* Memberi izin file:
+
+- chmod +x namafile
+
+* Melihat isi memori/folder:
+
+- ls
+
+* Memasuki memori:
+
+- cd /sdcard
+
+* Memasuki folder:
+
+- cd namafolder
+
+* Memasuki directory user root:
+
+- cd ../usr/etc/
+
+- nano bash.bashrc
+
+* Membuat folder:
+
+- mkdir namafolder
+
+* Membuat file:
+
+- nano namafile
+
+- touch namafile
+
+* Menghapus file:
+
+- rm -rf namafile
+
+* Menyalin/copy file ke folder lain:
+
+- cp -r namafile /stotage/emulated/0/folder
+
+* Memindahkan file/folder ke folder lain:
+
+- mv namafile/namafolder /stotage/emulated/0/folder
+
+* Membersihkan layar:
+
+- clear
+
+* Mengganti tanda dollar:
+
+- cd ../usr/etc
+
+- nano bash.bashrc
+
+* Update packages:
+
+- pkg update && pkg upgrade
+
+- apt update && apt upgrade
+
+* Melihat isi file:
+
+- pkg files php
+
+- pkg install php
+
+- pkg list-all
+
+- pkg list-installed
+
+- pkg reinstall ruby
+
+- pkg search namafile
+
+- pkg show namafile
+
+
+* cara melihat password wifi:
+
+- pkg install termux-tools
+
+- su
+
+- cat /data/misc/wifi/wpa_supplicant.conf

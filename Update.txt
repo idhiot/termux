@@ -1,0 +1,34 @@
+* Update packages termux:
+
+- cd ../usr/etc/apt
+
+- ls
+
+- echo "deb https://packages.termux.dev/termux-main-21/ stable main" > sources.list
+
+- cd sources.list.d
+
+- ls
+
+- echo "deb https://termux.dev/game-packages-21-bin games stable" cd sources.list.d> game.list
+
+- echo "deb https://termux.dev/science-packages-21-bin science stable" > science.list
+
+- cd ~
+
+- pkg upgrade
+
+- apt upgrade
+
+- pkg install git
+
+- pkg install python
+
+
+* Tombol kanan-kiri:
+
+git clone https://github.com/JagadBumi/.termux && termux-reload-settings
+
+* Download tools digithub:
+
+

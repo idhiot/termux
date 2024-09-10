@@ -1,0 +1,33 @@
+apt-get update && apt-get upgrade
+
+pkg install python
+
+termux-setup-storage
+
+pip install youtube-dl
+
+mkdir /data/data/com.termux/files/home/storage/shared/Youtube
+
+mkdir -p ~/.config/youtube-dl
+
+apt-get install nano
+
+nano ~/.config/youtube-dl/config
+
+--no-mtime -o /data/data/com.termux/files/home/storage)s -f "best[height<=480]"
+
+mkdir ~/bin
+
+cd ~/bin
+
+nano termux-url-opener
+
+youtube-dl $1
+
+
+
+* link download vidio via termux:
+
+https://youtu.be/NhHYtnBQ4HU
+
+https://youtu.be/X5_9hKpKsWE?si=NaNhz4ig2okTP7JL
